@@ -104,7 +104,7 @@ class Game:
 
 		self.CONSOLE_ENABLED = 0 #Отвечает за разблокировку консоли игры. Обычно включается во время разработки или в дев. билдах (auto-py-to-exe)
 		self.DEBUG_TEXT_ENABLE = 0 #Отвечает за разблокировку дебаг текста
-		self.RUN_RPC_ATSTART = 0
+		self.RUN_RPC_ATSTART = 1
 		self.SENSORMODE = int(sensormode_fromfile.read())
 		sensormode_fromfile.close()
 
